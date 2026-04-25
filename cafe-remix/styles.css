@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(5, 12, 25, 0.65), rgba(5, 12, 25, 0.65)), url("bg-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}   
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Impact, "Arial Narrow", sans-serif;
+  letter-spacing: 1px;
+}
+
+.menu {
+  width: 80%;
+  background-color: rgba(235, 245, 255, 0.94);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 550px;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: #1f6feb;
+  border-color: #1f6feb;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+address {
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0b3d91;
+}
+
+a:visited {
+  color: #0b3d91;
+}
+
+a:hover {
+  color: #1f6feb;
+}
+
+a:active {
+  color: #1f6feb;
+}
